@@ -34,7 +34,6 @@ public class IntersectionChk {
 		// correct division by zero
 		m1 = (y2-y1)/(x2-x1);
 		
-		System.out.println(m1);
 		
 		System.out.print("Please enter (x1,y1) for line 2: ");
 		x1 = input.nextInt() ;
@@ -48,8 +47,16 @@ public class IntersectionChk {
 		// correct division by zero
 		m2 = (y2-y1)/(x2-x1);
 		
-		System.out.println(m2);
-		
+		if( m1 == m2)
+		{
+			System.out.println("0");
+			
+		}
+		else if(m1 != m2)
+		{
+			System.out.println("1");
+			
+		}
 		
 		input.close();
 
