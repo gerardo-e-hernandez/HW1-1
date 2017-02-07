@@ -1,6 +1,5 @@
 /**
  * Gerardo Hernandez
- * SID# 20217586
  * HW1-1
  * Due Date 02/07/2017
  *
